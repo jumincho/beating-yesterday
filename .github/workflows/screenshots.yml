@@ -1,0 +1,56 @@
+name: Screenshots
+
+# Re-renders docs/screenshots with the Robolectric screenshot tests and commits any change to the
+# branch the workflow was started on. Start it manually after changing the UI.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  record:
+    name: Record screenshots
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out
+        uses: actions/checkout@v7
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+
+      - name: Record screenshots
+        run: |
+          rm -rf docs/screenshots
+          ./gradlew --no-daemon --stacktrace -PrecordScreenshots \
+            :app:testDebugUnitTest --tests "com.jumincho.beatingyesterday.ui.ScreenshotTest" --rerun
+
+      - name: Upload screenshots
+        uses: actions/upload-artifact@v7
+        with:
+          name: screenshots
+          path: docs/screenshots/
+          if-no-files-found: error
+
+      - name: Commit changed screenshots
+        run: |
+          sha256sum docs/screenshots/*.png
+          git add --all docs/screenshots
+          if git diff --cached --quiet; then
+            echo "The screenshots are up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --message "Update screenshots" \
+            --message "Recorded by $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          git push origin "HEAD:$GITHUB_REF_NAME"
