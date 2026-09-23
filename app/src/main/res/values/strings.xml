@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Beating Yesterday</string>
-    <string name="title_home">Home</string>
-    <string name="title_diet">Diet</string>
-    <string name="title_productivity">Productivity</string>
-    <string name="textview1">TextView</string>
-    <string name="textView0">사용자 이름 :</string>
-</resources>
