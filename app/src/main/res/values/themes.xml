@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The window theme only matters until Compose draws; colours come from BeatingYesterdayTheme. -->
+    <style name="Theme.BeatingYesterday" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

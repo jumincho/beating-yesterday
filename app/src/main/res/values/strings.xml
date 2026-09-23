@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Beating Yesterday</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_diet">Diet</string>
+    <string name="nav_focus">Focus</string>
+    <string name="nav_tasks">Tasks</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_done">Done</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_save">Save</string>
+    <string name="action_undo">Undo</string>
+    <string name="today">Today</string>
+    <string name="today_short">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="unit_kcal" translatable="false">kcal</string>
+    <string name="unit_cm" translatable="false">cm</string>
+    <string name="unit_kg" translatable="false">kg</string>
+    <string name="kcal_amount">%1$s kcal</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours">%1$d h</string>
+    <string name="duration_hours_minutes">%1$d h %2$d min</string>
+
+    <!-- Form errors -->
+    <string name="error_required">Required</string>
+    <string name="error_not_a_number">Enter a number</string>
+    <plurals name="error_too_long">
+        <item quantity="one">Use at most %d character</item>
+        <item quantity="other">Use at most %d characters</item>
+    </plurals>
+    <string name="error_out_of_range">Enter a value from %1$d to %2$d</string>
+
+    <!-- Profile and onboarding -->
+    <string name="onboarding_title">Welcome! Ready to beat yesterday?</string>
+    <string name="onboarding_body">Every day is a friendly match against yesterday’s you. Tell us a little about yourself so we can set your daily calorie target.</string>
+    <string name="onboarding_start">Start competing</string>
+    <string name="profile_title">Profile</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_sex">Sex</string>
+    <string name="profile_birth_year">Birth year</string>
+    <string name="profile_birth_year_hint">e.g. 1998</string>
+    <string name="profile_height">Height</string>
+    <string name="profile_weight">Weight</string>
+    <string name="profile_activity_level">Activity level</string>
+    <string name="sex_male">Male</string>
+    <string name="sex_female">Female</string>
+    <string name="activity_sedentary">Sedentary</string>
+    <string name="activity_sedentary_description">Little or no exercise</string>
+    <string name="activity_light">Lightly active</string>
+    <string name="activity_light_description">Light exercise 1–3 days a week</string>
+    <string name="activity_moderate">Moderately active</string>
+    <string name="activity_moderate_description">Moderate exercise 3–5 days a week</string>
+    <string name="activity_active">Active</string>
+    <string name="activity_active_description">Hard exercise 6–7 days a week</string>
+    <string name="activity_very_active">Very active</string>
+    <string name="activity_very_active_description">Very hard exercise every day or a physical job</string>
+
+    <!-- Health numbers -->
+    <string name="health_title">Your numbers</string>
+    <string name="health_bmi">BMI</string>
+    <string name="health_bmi_value">%1$s · %2$s</string>
+    <string name="health_bmr">Basal metabolic rate</string>
+    <string name="health_tdee">Daily energy use</string>
+    <string name="health_target">Daily calorie target</string>
+    <string name="health_disclaimer">Estimates from standard formulas (Mifflin–St Jeor and the Asia-Pacific BMI cut-offs) for general guidance only. This is not medical advice.</string>
+    <string name="bmi_underweight">Underweight</string>
+    <string name="bmi_normal">Normal</string>
+    <string name="bmi_overweight">Overweight</string>
+    <string name="bmi_obese">Obese</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Hi, %1$s</string>
+    <string name="home_open_profile">Open profile</string>
+    <string name="home_verdict_win">You’re beating yesterday!</string>
+    <string name="home_verdict_lose">Yesterday’s you is ahead</string>
+    <string name="home_verdict_draw">Neck and neck with yesterday</string>
+    <string name="home_rounds_summary">Won %1$d · Lost %2$d</string>
+    <plurals name="home_streak">
+        <item quantity="one">%d-day winning streak</item>
+        <item quantity="other">%d-day winning streak</item>
+    </plurals>
+    <string name="home_streak_none">No streak yet. Beat yesterday to start one.</string>
+    <string name="home_first_day_hint">Nothing was logged yesterday, so today is an easy win. The real contest starts tomorrow!</string>
+    <string name="home_rounds_title">Today vs yesterday</string>
+    <string name="round_diet">Diet</string>
+    <string name="round_focus">Focus</string>
+    <string name="round_tasks">Tasks</string>
+    <string name="outcome_won">Won</string>
+    <string name="outcome_lost">Lost</string>
+    <string name="outcome_tied">Tie</string>
+    <string name="outcome_no_data">No data</string>
+    <string name="home_diet_no_meals">No meals logged</string>
+    <string name="home_diet_on_target">%1$s · on target</string>
+    <string name="home_diet_under">%1$s · %2$s under</string>
+    <string name="home_diet_over">%1$s · %2$s over</string>
+    <plurals name="home_tasks_done">
+        <item quantity="one">%d task done</item>
+        <item quantity="other">%d tasks done</item>
+    </plurals>
+    <string name="home_history_title">Last 7 days</string>
+    <string name="home_history_day">%1$s: %2$s</string>
+    <string name="verdict_win">Won</string>
+    <string name="verdict_lose">Lost</string>
+    <string name="verdict_draw">Draw</string>
+    <string name="verdict_win_short">W</string>
+    <string name="verdict_lose_short">L</string>
+    <string name="verdict_draw_short">D</string>
+    <string name="home_rules_title">How to beat yesterday</string>
+    <string name="home_rules_diet">Diet: the day closer to your calorie target wins. A day without meals has no data for this round.</string>
+    <string name="home_rules_focus">Focus: more whole minutes of focus wins.</string>
+    <string name="home_rules_tasks">Tasks: more completed tasks wins.</string>
+    <string name="home_rules_verdict">Win more rounds than you lose to beat yesterday. Beat it day after day to build a streak.</string>
+
+    <!-- Diet -->
+    <string name="diet_title">Diet</string>
+    <string name="diet_previous_day">Previous day</string>
+    <string name="diet_next_day">Next day</string>
+    <string name="diet_show_today">Show today</string>
+    <string name="diet_intake_label">Calories eaten</string>
+    <string name="diet_intake_of_target">%1$s of %2$s</string>
+    <string name="diet_remaining">%1$s left</string>
+    <string name="diet_over_target">%1$s over target</string>
+    <string name="diet_target_basis">Target based on BMI %1$s (%2$s)</string>
+    <string name="diet_no_meals_hint">No meals logged, so the Diet round has no data for this day.</string>
+    <string name="diet_section_title">%1$s · %2$s</string>
+    <string name="diet_section_empty">Nothing logged</string>
+    <string name="diet_add_meal">Add meal</string>
+    <string name="diet_add_to">Add to %1$s</string>
+    <string name="diet_edit_meal">Edit</string>
+    <string name="diet_delete_meal">Delete %1$s</string>
+    <string name="diet_meal_deleted">Deleted %1$s</string>
+    <string name="meal_breakfast">Breakfast</string>
+    <string name="meal_lunch">Lunch</string>
+    <string name="meal_dinner">Dinner</string>
+    <string name="meal_snack">Snack</string>
+
+    <!-- Meal editor -->
+    <string name="meal_editor_add_title">Add meal</string>
+    <string name="meal_editor_edit_title">Edit meal</string>
+    <string name="meal_editor_type">Meal</string>
+    <string name="meal_editor_name">Food</string>
+    <string name="meal_editor_kcal">Calories</string>
+    <string name="food_search_title">Look up calories</string>
+    <string name="food_search_label">Food name</string>
+    <string name="food_search_action">Search</string>
+    <string name="food_search_source">Results come from the Food Safety Korea nutrition database.</string>
+    <string name="food_search_unavailable">Food lookup is disabled in this build because no API key was configured. You can still enter calories yourself.</string>
+    <string name="food_search_no_results">No foods found for “%1$s”.</string>
+    <string name="food_search_count">Showing %1$d of %2$d</string>
+    <string name="food_serving_size">Serving %1$s</string>
+    <string name="food_kcal_unknown">kcal unknown</string>
+    <string name="food_use">Use this food</string>
+    <string name="food_error_timeout">The food database took too long to answer. Please try again.</string>
+    <string name="food_error_network">Couldn’t reach the food database. Check your connection.</string>
+    <string name="food_error_http">The food database returned an error (HTTP %1$d).</string>
+    <string name="food_error_api">The food database rejected the request (%1$s).</string>
+    <string name="food_error_invalid">The food database sent a response the app couldn’t read.</string>
+
+    <!-- Focus -->
+    <string name="focus_title">Focus</string>
+    <string name="focus_mode_timer">Timer</string>
+    <string name="focus_mode_stopwatch">Stopwatch</string>
+    <string name="focus_custom">Custom</string>
+    <string name="focus_custom_selected">Custom · %1$s</string>
+    <string name="focus_custom_title">Custom timer</string>
+    <string name="focus_start">Start</string>
+    <string name="focus_pause">Pause</string>
+    <string name="focus_resume">Resume</string>
+    <string name="focus_stop">Stop</string>
+    <string name="focus_status_ready">Ready</string>
+    <string name="focus_status_running">Focusing</string>
+    <string name="focus_status_paused">Paused</string>
+    <string name="focus_sessions_title">Today’s sessions</string>
+    <string name="focus_sessions_summary">%1$s · %2$s</string>
+    <plurals name="focus_session_count">
+        <item quantity="one">%d session</item>
+        <item quantity="other">%d sessions</item>
+    </plurals>
+    <string name="focus_sessions_empty">No sessions yet. Sessions of at least a minute count towards the Focus round.</string>
+    <string name="focus_session_range">%1$s – %2$s</string>
+    <string name="focus_delete_session">Delete the session started at %1$s</string>
+    <string name="focus_message_saved">Saved %1$s of focus</string>
+    <string name="focus_message_too_short">Sessions under a minute aren’t saved</string>
+    <string name="focus_message_completed">Time’s up! Saved %1$s of focus</string>
+    <string name="focus_message_deleted">Session deleted</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">Tasks</string>
+    <string name="tasks_summary">Done today: %1$d of %2$d</string>
+    <string name="tasks_new_hint">Add a task for today</string>
+    <string name="tasks_add">Add task</string>
+    <string name="tasks_empty_title">Nothing planned yet</string>
+    <string name="tasks_empty_body">Add a task and tick it off. Completed tasks count towards the Tasks round, and unfinished ones carry over to the next day.</string>
+    <string name="tasks_carried_over">Carried over from %1$s</string>
+    <string name="tasks_delete">Delete %1$s</string>
+    <string name="tasks_deleted">Deleted %1$s</string>
+</resources>

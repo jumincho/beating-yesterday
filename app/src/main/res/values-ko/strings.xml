@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_home">홈</string>
+    <string name="nav_diet">식단</string>
+    <string name="nav_focus">집중</string>
+    <string name="nav_tasks">할 일</string>
+
+    <!-- Common -->
+    <string name="action_back">뒤로</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_close">닫기</string>
+    <string name="action_done">완료</string>
+    <string name="action_retry">다시 시도</string>
+    <string name="action_save">저장</string>
+    <string name="action_undo">실행 취소</string>
+    <string name="today">오늘</string>
+    <string name="today_short">오늘</string>
+    <string name="yesterday">어제</string>
+    <string name="kcal_amount">%1$s kcal</string>
+    <string name="duration_minutes">%1$d분</string>
+    <string name="duration_hours">%1$d시간</string>
+    <string name="duration_hours_minutes">%1$d시간 %2$d분</string>
+
+    <!-- Form errors -->
+    <string name="error_required">필수 항목이에요</string>
+    <string name="error_not_a_number">숫자를 입력해 주세요</string>
+    <plurals name="error_too_long">
+        <item quantity="other">%d자 이내로 입력해 주세요</item>
+    </plurals>
+    <string name="error_out_of_range">%1$d~%2$d 사이의 값을 입력해 주세요</string>
+
+    <!-- Profile and onboarding -->
+    <string name="onboarding_title">어제의 나를 이길 준비가 되었나요?</string>
+    <string name="onboarding_body">매일이 어제의 나와 벌이는 즐거운 승부예요. 하루 목표 칼로리를 정할 수 있도록 간단한 정보를 알려 주세요.</string>
+    <string name="onboarding_start">대결 시작하기</string>
+    <string name="profile_title">프로필</string>
+    <string name="profile_name">이름</string>
+    <string name="profile_sex">성별</string>
+    <string name="profile_birth_year">출생 연도</string>
+    <string name="profile_birth_year_hint">예: 1998</string>
+    <string name="profile_height">키</string>
+    <string name="profile_weight">몸무게</string>
+    <string name="profile_activity_level">활동량</string>
+    <string name="sex_male">남성</string>
+    <string name="sex_female">여성</string>
+    <string name="activity_sedentary">거의 활동하지 않음</string>
+    <string name="activity_sedentary_description">운동을 거의 하지 않아요</string>
+    <string name="activity_light">가벼운 활동</string>
+    <string name="activity_light_description">주 1–3일 가볍게 운동해요</string>
+    <string name="activity_moderate">보통 활동</string>
+    <string name="activity_moderate_description">주 3–5일 적당히 운동해요</string>
+    <string name="activity_active">활발한 활동</string>
+    <string name="activity_active_description">주 6–7일 강도 높게 운동해요</string>
+    <string name="activity_very_active">매우 활발한 활동</string>
+    <string name="activity_very_active_description">매일 아주 강하게 운동하거나 몸을 많이 쓰는 일을 해요</string>
+
+    <!-- Health numbers -->
+    <string name="health_title">나의 수치</string>
+    <string name="health_bmi">BMI</string>
+    <string name="health_bmi_value">%1$s · %2$s</string>
+    <string name="health_bmr">기초대사량</string>
+    <string name="health_tdee">하루 에너지 소비량</string>
+    <string name="health_target">하루 목표 칼로리</string>
+    <string name="health_disclaimer">일반적인 공식(Mifflin–St Jeor 공식, 아시아·태평양 BMI 기준)으로 계산한 참고용 추정치이며, 의학적 조언이 아니에요.</string>
+    <string name="bmi_underweight">저체중</string>
+    <string name="bmi_normal">정상</string>
+    <string name="bmi_overweight">과체중</string>
+    <string name="bmi_obese">비만</string>
+
+    <!-- Home -->
+    <string name="home_greeting">%1$s님, 안녕하세요</string>
+    <string name="home_open_profile">프로필 열기</string>
+    <string name="home_verdict_win">어제의 나를 이기고 있어요!</string>
+    <string name="home_verdict_lose">어제의 내가 앞서고 있어요</string>
+    <string name="home_verdict_draw">어제의 나와 막상막하예요</string>
+    <string name="home_rounds_summary">%1$d승 · %2$d패</string>
+    <plurals name="home_streak">
+        <item quantity="other">%d일 연속 승리 중</item>
+    </plurals>
+    <string name="home_streak_none">아직 연승 기록이 없어요. 어제를 이기면 시작돼요.</string>
+    <string name="home_first_day_hint">어제는 기록이 없어서 오늘은 쉽게 이길 수 있어요. 진짜 승부는 내일부터예요!</string>
+    <string name="home_rounds_title">오늘 vs 어제</string>
+    <string name="round_diet">식단</string>
+    <string name="round_focus">집중</string>
+    <string name="round_tasks">할 일</string>
+    <string name="outcome_won">승</string>
+    <string name="outcome_lost">패</string>
+    <string name="outcome_tied">무승부</string>
+    <string name="outcome_no_data">기록 없음</string>
+    <string name="home_diet_no_meals">식사 기록 없음</string>
+    <string name="home_diet_on_target">%1$s · 목표 달성</string>
+    <string name="home_diet_under">%1$s · 목표보다 %2$s 적음</string>
+    <string name="home_diet_over">%1$s · 목표보다 %2$s 많음</string>
+    <plurals name="home_tasks_done">
+        <item quantity="other">%d개 완료</item>
+    </plurals>
+    <string name="home_history_title">최근 7일</string>
+    <string name="home_history_day">%1$s: %2$s</string>
+    <string name="verdict_win">승리</string>
+    <string name="verdict_lose">패배</string>
+    <string name="verdict_draw">무승부</string>
+    <string name="verdict_win_short">승</string>
+    <string name="verdict_lose_short">패</string>
+    <string name="verdict_draw_short">무</string>
+    <string name="home_rules_title">어제의 나를 이기는 방법</string>
+    <string name="home_rules_diet">식단: 목표 칼로리에 더 가까운 날이 이겨요. 식사 기록이 없는 날은 이 라운드를 비교하지 않아요.</string>
+    <string name="home_rules_focus">집중: 집중한 시간(분)이 더 긴 날이 이겨요.</string>
+    <string name="home_rules_tasks">할 일: 완료한 할 일이 더 많은 날이 이겨요.</string>
+    <string name="home_rules_verdict">이긴 라운드가 진 라운드보다 많으면 어제를 이긴 거예요. 매일 이기면 연승 기록이 쌓여요.</string>
+
+    <!-- Diet -->
+    <string name="diet_title">식단</string>
+    <string name="diet_previous_day">이전 날</string>
+    <string name="diet_next_day">다음 날</string>
+    <string name="diet_show_today">오늘로 이동</string>
+    <string name="diet_intake_label">섭취한 칼로리</string>
+    <string name="diet_intake_of_target">%1$s / %2$s</string>
+    <string name="diet_remaining">%1$s 남음</string>
+    <string name="diet_over_target">목표보다 %1$s 초과</string>
+    <string name="diet_target_basis">BMI %1$s(%2$s) 기준 목표</string>
+    <string name="diet_no_meals_hint">식사 기록이 없어서 이날의 식단 라운드는 비교하지 않아요.</string>
+    <string name="diet_section_title">%1$s · %2$s</string>
+    <string name="diet_section_empty">기록 없음</string>
+    <string name="diet_add_meal">식사 추가</string>
+    <string name="diet_add_to">%1$s에 추가</string>
+    <string name="diet_edit_meal">수정</string>
+    <string name="diet_delete_meal">%1$s 삭제</string>
+    <string name="diet_meal_deleted">%1$s 항목을 삭제했어요</string>
+    <string name="meal_breakfast">아침</string>
+    <string name="meal_lunch">점심</string>
+    <string name="meal_dinner">저녁</string>
+    <string name="meal_snack">간식</string>
+
+    <!-- Meal editor -->
+    <string name="meal_editor_add_title">식사 추가</string>
+    <string name="meal_editor_edit_title">식사 수정</string>
+    <string name="meal_editor_type">식사</string>
+    <string name="meal_editor_name">음식</string>
+    <string name="meal_editor_kcal">칼로리</string>
+    <string name="food_search_title">칼로리 찾아보기</string>
+    <string name="food_search_label">음식 이름</string>
+    <string name="food_search_action">검색</string>
+    <string name="food_search_source">식품안전나라 식품영양성분 데이터베이스에서 검색해요.</string>
+    <string name="food_search_unavailable">API 키가 설정되지 않아 이 빌드에서는 음식 검색을 사용할 수 없어요. 칼로리는 직접 입력할 수 있어요.</string>
+    <string name="food_search_no_results">‘%1$s’에 대한 검색 결과가 없어요.</string>
+    <string name="food_search_count">%2$d개 중 %1$d개 표시</string>
+    <string name="food_serving_size">1회 제공량 %1$s</string>
+    <string name="food_kcal_unknown">칼로리 정보 없음</string>
+    <string name="food_use">이 음식 사용</string>
+    <string name="food_error_timeout">음식 데이터베이스의 응답이 너무 늦어요. 다시 시도해 주세요.</string>
+    <string name="food_error_network">음식 데이터베이스에 연결할 수 없어요. 인터넷 연결을 확인해 주세요.</string>
+    <string name="food_error_http">음식 데이터베이스에서 오류가 발생했어요(HTTP %1$d).</string>
+    <string name="food_error_api">음식 데이터베이스가 요청을 거부했어요(%1$s).</string>
+    <string name="food_error_invalid">음식 데이터베이스의 응답을 읽을 수 없어요.</string>
+
+    <!-- Focus -->
+    <string name="focus_title">집중</string>
+    <string name="focus_mode_timer">타이머</string>
+    <string name="focus_mode_stopwatch">스톱워치</string>
+    <string name="focus_custom">직접 설정</string>
+    <string name="focus_custom_selected">직접 설정 · %1$s</string>
+    <string name="focus_custom_title">타이머 시간 설정</string>
+    <string name="focus_start">시작</string>
+    <string name="focus_pause">일시정지</string>
+    <string name="focus_resume">계속</string>
+    <string name="focus_stop">종료</string>
+    <string name="focus_status_ready">준비</string>
+    <string name="focus_status_running">집중 중</string>
+    <string name="focus_status_paused">일시정지됨</string>
+    <string name="focus_sessions_title">오늘의 집중 기록</string>
+    <string name="focus_sessions_summary">%1$s · %2$s</string>
+    <plurals name="focus_session_count">
+        <item quantity="other">%d회</item>
+    </plurals>
+    <string name="focus_sessions_empty">아직 기록이 없어요. 1분 이상 집중한 기록이 집중 라운드에 반영돼요.</string>
+    <string name="focus_session_range">%1$s – %2$s</string>
+    <string name="focus_delete_session">%1$s에 시작한 기록 삭제</string>
+    <string name="focus_message_saved">%1$s 동안의 집중 기록을 저장했어요</string>
+    <string name="focus_message_too_short">1분 미만의 기록은 저장되지 않아요</string>
+    <string name="focus_message_completed">시간 종료! %1$s 동안의 집중 기록을 저장했어요</string>
+    <string name="focus_message_deleted">기록을 삭제했어요</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">할 일</string>
+    <string name="tasks_summary">오늘 %2$d개 중 %1$d개 완료</string>
+    <string name="tasks_new_hint">오늘 할 일 추가</string>
+    <string name="tasks_add">할 일 추가</string>
+    <string name="tasks_empty_title">아직 계획한 일이 없어요</string>
+    <string name="tasks_empty_body">할 일을 추가하고 완료해 보세요. 완료한 일은 할 일 라운드에 반영되고, 끝내지 못한 일은 다음 날로 넘어가요.</string>
+    <string name="tasks_carried_over">%1$s부터 이어진 일</string>
+    <string name="tasks_delete">%1$s 삭제</string>
+    <string name="tasks_deleted">%1$s 항목을 삭제했어요</string>
+</resources>

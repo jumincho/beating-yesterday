@@ -28,4 +28,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "beating-yesterday"
 
-include(":core")
+include(":app", ":core")
