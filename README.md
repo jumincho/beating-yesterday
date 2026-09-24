@@ -1,5 +1,7 @@
 <div align="center">
 
+🇺🇸 **English** | 🇨🇳 [简体中文](README.zh-CN.md) | 🇭🇰 [繁體中文](README.zh-HK.md) | 🇯🇵 [日本語](README.ja.md) | 🇰🇷 [한국어](README.ko.md)
+
 # Beating Yesterday
 
 **A daily self-improvement tracker where every day is a match against yesterday's you.**
