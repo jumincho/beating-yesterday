@@ -37,8 +37,8 @@ android {
         applicationId = "com.jumincho.beatingyesterday"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "2.0.0"
+        versionCode = 1
+        versionName = "1.0.0"
 
         val escapedKey = foodApiKey.replace("\\", "\\\\").replace("\"", "\\\"")
         buildConfigField("String", "FOOD_API_KEY", "\"$escapedKey\"")

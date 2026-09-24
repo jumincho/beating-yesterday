@@ -18,8 +18,8 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 /**
- * A circular progress ring drawn on a [Canvas], with a knob at the end of the arc like the drag
- * handles of the original 2021 timer. [content] is centred inside the ring.
+ * A circular progress ring drawn on a [Canvas], with a knob at the end of the arc. [content] is
+ * centred inside the ring.
  *
  * @param progress fraction of the ring to fill, from 0 to 1, clockwise from the top.
  */

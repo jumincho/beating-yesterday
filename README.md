@@ -19,10 +19,6 @@ today against yesterday in three rounds — **Diet**, **Focus** and **Tasks** �
 whether you are beating yesterday's you, how long your winning streak is, and how the last week
 went.
 
-This is a from-scratch Kotlin rewrite of a 2021 student project (see
-[Project history](#project-history)). It keeps the original idea, name, application ID and
-launcher icon; everything else was rebuilt.
-
 | Home | Diet | Focus |
 | :---: | :---: | :---: |
 | <img src="docs/screenshots/home.png" width="250" alt="Home: today leads yesterday two rounds to one, on a three-day winning streak"> | <img src="docs/screenshots/diet.png" width="250" alt="Diet: 2,020 of 2,099 kcal eaten, with the meals grouped by breakfast, lunch and dinner"> | <img src="docs/screenshots/focus.png" width="250" alt="Focus: a 50-minute countdown with 38 minutes left and three earlier sessions"> |
@@ -188,7 +184,7 @@ beating-yesterday/
 │       ├── test/                         unit tests
 │       └── testFixtures/                 fakes shared with the app's tests
 ├── docs/
-│   ├── presentation.pptx                 2021 project slides
+│   ├── presentation.pptx                 project slides
 │   └── screenshots/                      README screenshots, recorded on CI
 ├── gradle/libs.versions.toml             version catalog
 └── .github/workflows/                    ci.yml (every push), screenshots.yml (manual)
@@ -236,22 +232,6 @@ tab (it commits the new images to the branch it runs on), or record them locally
 ```bash
 ./gradlew :app:testDebugUnitTest --tests com.jumincho.beatingyesterday.ui.ScreenshotTest --rerun -PrecordScreenshots
 ```
-
-## Project history
-
-Beating Yesterday started in 2021 as a student project written in Java: fragments sharing static
-fields, SharedPreferences, a SQLite to-do list, a custom `CircularTimerView`, and a manual "start a
-new day" button. In 2026 it was rebuilt from scratch in Kotlin with Jetpack Compose, keeping the
-concept, the name, the application ID `com.jumincho.beatingyesterday` and the launcher icon.
-
-- Demo video of the 2021 app: <https://youtu.be/vW4CvgCHdco>
-- 2021 project slides: [`docs/presentation.pptx`](docs/presentation.pptx)
-
-<p align="center">
-  <img width="240" src="https://user-images.githubusercontent.com/77545063/200374902-2da72615-5cf8-4d20-b950-f00962a1c795.png" alt="Screenshot of the original 2021 app"/>
-  <br/>
-  <em>The original 2021 UI</em>
-</p>
 
 ## License
 
